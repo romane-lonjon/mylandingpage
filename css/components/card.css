@@ -1,0 +1,35 @@
+.cards{
+
+display: flex;
+flex-wrap: wrap;}
+
+.card {
+background-color: #fc7978 ;
+padding: 50px ;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 10px;
+margin-bottom: 20px;
+flex-basis: 200px;
+margin: 10px auto;
+
+
+}
+
+.card img {
+
+	width: 150px;
+	border-radius: 6px; 
+}
+
+.card h3{
+
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 20px
+}
+
+.card a{
+	color: black;
+}
